@@ -1,0 +1,11 @@
+wheel
+numpy
+pandas
+cv2
+cmake
+dlib
+face_recognition
+streamlit
+pyttsx3
+os
+datetime
