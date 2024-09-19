@@ -1,6 +1,1 @@
 cv2
-numpy 
-face_recognition
-os
-pyttsx3
-datetime 
