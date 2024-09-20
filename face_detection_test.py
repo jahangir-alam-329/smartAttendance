@@ -1,15 +1,15 @@
-# import streamlit as st
-# button=st.button("click me")
-# if button==False:
-#     picture = st.camera_input("Take a picture")
+import streamlit as st
+button=st.button("click me")
+if button==False:
+    picture = st.camera_input("Take a picture")
 
-#     if picture:
-#         p=st.image(picture)
+    if picture:
+        p=st.image(picture)
 
 
 # to start live_webcam on streamlit
 
-# elif button==True:
+elif button==True:
 import cv2
 from cvzone.FaceDetectionModule import FaceDetector
 import streamlit as st
@@ -28,5 +28,5 @@ while True:
     q=frame_window.image(img)
         
 
-# else:
-#     st.success("click button")
+else:
+    st.success("click button")
